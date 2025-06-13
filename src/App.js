@@ -31,7 +31,7 @@ const App = () => {
 
         {/* CENTERED LOGO */}
         <img
-          src="/zynaa_logo_circular.png"
+          src="/zynaa_black_logo.png"
           alt="Zynaa Logo"
           className="h-14 w-auto absolute left-1/2 transform -translate-x-1/2"
         />
