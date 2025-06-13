@@ -26,7 +26,7 @@ const App = () => {
       <header className="p-6 flex justify-between items-center shadow-md relative">
         {/* LOGO LEFT */}
         <img
-          src="/logo.png"
+          src="/zynaa_logo_circular.png"
           alt="Zynaa Logo"
           className="h-10 w-auto absolute left-6"
         />
