@@ -46,12 +46,22 @@ const App = () => {
       </header>
 
       {/* === HERO === */}
+      {/* === HERO === */}
       <section className="h-[80vh] flex items-center justify-center flex-col text-center px-4">
+        <motion.img
+          src="/zynaa_black_logo.png"
+          alt="Zynaa Logo"
+          className="h-20 w-auto mb-6"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        />
+      
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-4"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
         >
           Where Elegance Meets You
         </motion.h2>
