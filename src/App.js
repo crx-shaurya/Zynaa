@@ -24,17 +24,17 @@ const App = () => {
     <div className="bg-white text-gray-900 font-sans">
       {/* === HEADER === */}
       <header className="p-6 flex justify-between items-center shadow-md relative">
-        {/* LOGO LEFT */}
+        {/* LEFT TEXT */}
+        <h1 className="text-xl font-semibold tracking-wider absolute left-6">
+          Zynaa
+        </h1>
+
+        {/* CENTERED LOGO */}
         <img
           src="/zynaa_logo_circular.png"
           alt="Zynaa Logo"
-          className="h-20 w-auto absolute left-6"
+          className="h-14 w-auto absolute left-1/2 transform -translate-x-1/2"
         />
-
-        {/* CENTER NAME */}
-        <h1 className="text-xl font-semibold tracking-wider text-center w-full">
-          Zynaa
-        </h1>
 
         {/* SHOP LINK RIGHT */}
         <a
