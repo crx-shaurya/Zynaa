@@ -22,13 +22,30 @@ const products = [
 const App = () => {
   return (
     <div className="bg-white text-gray-900 font-sans">
-      <header className="p-6 flex justify-between items-center shadow-md">
-        <h1 className="text-2xl font-semibold tracking-widest">ZYNAA</h1>
-        <a href="#shop" className="text-sm font-medium hover:text-gold-500">
+      {/* === HEADER === */}
+      <header className="p-6 flex justify-between items-center shadow-md relative">
+        {/* LOGO LEFT */}
+        <img
+          src="/logo.png"
+          alt="Zynaa Logo"
+          className="h-10 w-auto absolute left-6"
+        />
+
+        {/* CENTER NAME */}
+        <h1 className="text-xl font-semibold tracking-wider text-center w-full">
+          Zynaaq
+        </h1>
+
+        {/* SHOP LINK RIGHT */}
+        <a
+          href="#shop"
+          className="text-sm font-medium absolute right-6 hover:text-gold-500"
+        >
           Shop Now
         </a>
       </header>
 
+      {/* === HERO === */}
       <section className="h-[80vh] flex items-center justify-center flex-col text-center px-4">
         <motion.h2
           className="text-4xl md:text-5xl font-bold mb-4"
@@ -50,6 +67,7 @@ const App = () => {
         </a>
       </section>
 
+      {/* === PRODUCTS === */}
       <section id="shop" className="px-6 py-16 bg-gray-50">
         <h3 className="text-center text-3xl font-semibold mb-10">
           Featured Collection
@@ -73,6 +91,7 @@ const App = () => {
         </div>
       </section>
 
+      {/* === FOOTER === */}
       <footer className="text-center py-8 text-sm text-gray-500">
         &copy; {new Date().getFullYear()} Zynaa. All rights reserved.
       </footer>
