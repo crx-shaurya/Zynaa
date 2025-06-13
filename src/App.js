@@ -28,7 +28,7 @@ const App = () => {
         <img
           src="/zynaa_logo_circular.png"
           alt="Zynaa Logo"
-          className="h-10 w-auto absolute left-6"
+          className="h-20 w-auto absolute left-6"
         />
 
         {/* CENTER NAME */}
