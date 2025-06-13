@@ -33,7 +33,7 @@ const App = () => {
 
         {/* CENTER NAME */}
         <h1 className="text-xl font-semibold tracking-wider text-center w-full">
-          Zynaaq
+          Zynaa
         </h1>
 
         {/* SHOP LINK RIGHT */}
