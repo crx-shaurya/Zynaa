@@ -44,7 +44,7 @@ const App = () => {
         <motion.img
           src="/zynaa_black_logo.png"
           alt="Zynaa Logo"
-          className="h-30 w-auto mb-6"
+          className="h-20 w-auto mb-6"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
