@@ -5,7 +5,7 @@ const products = [
   {
     name: "Gold-Plated Necklace",
     price: "₹1,999",
-    image: "https://via.placeholder.com/400x400?text=Zynaa+Necklace",
+    image: "https://ibb.co/1fVWGQQg?text=Zynaa+Necklace",
   },
   {
     name: "Emerald Stud Earrings",
