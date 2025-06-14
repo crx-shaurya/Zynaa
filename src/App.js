@@ -13,9 +13,9 @@ const products = [
     image: "https://i.ibb.co/KcVJKr4V/Screenshot-2025-06-14-095057.png",
   },
   {
-    name: "Royal Kundan Set",
+    name: "Emerald Studd Necklace",
     price: "₹3,499",
-    image: "https://via.placeholder.com/400x400?text=Zynaa+Kundan+Set",
+    image: "https://i.ibb.co/rRBD0yDQ/Screenshot-2025-06-14-094758.png",
   },
 ];
 
