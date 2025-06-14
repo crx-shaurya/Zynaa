@@ -4,18 +4,33 @@ import { motion } from "framer-motion";
 const products = [
   {
     name: "Gold-Plated Necklace",
-    price: "₹1,999",
+    price: "₹299",
     image: "https://i.ibb.co/FbvT433r/Screenshot-2025-06-14-094712.png",
   },
   {
     name: "Emerald Stud Earrings",
-    price: "₹1,299",
+    price: "₹299",
     image: "https://i.ibb.co/KcVJKr4V/Screenshot-2025-06-14-095057.png",
   },
   {
     name: "Emerald Studd Necklace",
-    price: "₹3,499",
+    price: "₹299",
     image: "https://i.ibb.co/rRBD0yDQ/Screenshot-2025-06-14-094758.png",
+  },
+  {
+    name: "Gold-Plated Earings",
+    price: "₹299",
+    image: "https://i.ibb.co/mr5NkXyN/Screenshot-2025-06-14-095049.png",
+  },
+  {
+    name: "Gold-Plated Emerald Necklace",
+    price: "₹299",
+    image: "https://i.ibb.co/Q733jBvG/Screenshot-2025-06-14-094918.png",
+  },
+  {
+    name: "Pink Emerald Necklace",
+    price: "₹299",
+    image: "https://i.ibb.co/RGJvTQjc/Screenshot-2025-06-14-095104.png",
   },
 ];
 
