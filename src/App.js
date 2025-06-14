@@ -10,7 +10,7 @@ const products = [
   {
     name: "Emerald Stud Earrings",
     price: "₹1,299",
-    image: "https://via.placeholder.com/400x400?text=Zynaa+Earrings",
+    image: "https://i.ibb.co/KcVJKr4V/Screenshot-2025-06-14-095057.png",
   },
   {
     name: "Royal Kundan Set",
